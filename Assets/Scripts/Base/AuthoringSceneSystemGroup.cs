@@ -26,7 +26,7 @@ namespace Entities.Base
                     var subScene = Object.FindObjectOfType<SubScene>();
                     if (subScene != null)
                     {
-                        Enabled = AuthoringSceneName == subScene.gameObject.scene.name;
+                        Enabled = AuthoringSceneName == subScene.SceneName;
                     }
                     else
                     {
