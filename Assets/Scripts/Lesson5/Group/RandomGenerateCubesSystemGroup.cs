@@ -1,6 +1,6 @@
 using Entities.Base;
 
-namespace Lesson5.Group
+namespace Entities.Lesson5
 {
     public partial class RandomGenerateCubesSystemGroup : AuthoringSceneSystemGroup
     {

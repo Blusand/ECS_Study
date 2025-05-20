@@ -1,6 +1,5 @@
 using Entities.Lesson3;
 using Entities.Lesson5;
-using Lesson5.Group;
 using Unity.Burst;
 using Unity.Collections;
 using Unity.Entities;
