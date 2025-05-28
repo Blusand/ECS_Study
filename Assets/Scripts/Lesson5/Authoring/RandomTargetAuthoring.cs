@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace Entities.Lesson5
 {
-    struct RandomTargetData : IComponentData
+    public struct RandomTargetData : IComponentData
     {
         public float3 TargetPos;
     }
