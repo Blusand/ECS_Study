@@ -22,7 +22,7 @@ namespace Entities.Lesson9
             {
                 AddComponent(GetEntity(TransformUsageFlags.None), new SpawnerGeneratorData
                 {
-                    SpawnerProtoType = GetEntity(authoring.m_SpawnerPrefab),
+                    SpawnerProtoType = GetEntity(authoring.m_SpawnerPrefab, TransformUsageFlags.Dynamic),
                     HalfCountX = authoring.m_HalfCountX,
                     HalfCountZ = authoring.m_HalfCountZ
                 });
